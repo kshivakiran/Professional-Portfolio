@@ -1,0 +1,11 @@
+{
+  "name": "shiva-kiran-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio for Kunchala Shiva Kiran",
+  "scripts": {
+    "start": "npx -y serve ."
+  },
+  "keywords": [],
+  "author": "Kunchala Shiva Kiran",
+  "license": "ISC"
+}
