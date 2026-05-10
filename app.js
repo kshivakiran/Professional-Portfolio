@@ -230,5 +230,13 @@ document.addEventListener('DOMContentLoaded', () => {
             navToggle.classList.toggle('active');
             navLinksContainer.classList.toggle('active');
         });
+
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navLinksContainer.classList.remove('active');
+            });
+        });
     }
 });
